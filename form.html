@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add product</title>
+</head>
+<body>
+	<form action="addProduct.php" method="POST" enctype="multipart/form-data">
+		<h1>Добавление продукта</h1>
+		<label>Product name</label>
+		<input type="text" id="name" name="name" placeholder="Product name" required="requi"/><br/>
+		<label>Category</label>
+		<select name="category[] multiple="multiple">
+			<option value="1">Ct1</option>
+			<option value="2">Ct2</option>
+			<option value="3">Ct3</option>
+		</select><br/>
+		<input type="email" name="producer" value="test@de.com"/><br/>
+		<input type="number" name="num"/><br/>
+		<input type="address" name="address" /><br/>
+		<input type="phone" name="tel" maxlength="5" /><br/>
+		<input type="hidden" name="hid" value="dff" />
+		<input type="password" name="pas"/>
+		<input type="checkbox" name="box"/><br/>
+		<label>Gender</label>
+		<input type="radio" name="enabled" value="male"/>
+		<input type="radio" name="enabled" value="female"/>
+		<input type="radio" name="enabled" value="other"/><br/>
+		<input type="file" name="img"><br/>
+		<textarea name="description"></textarea>
+
+		<input type="submit" value="save" />
+	</form>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*
+главные стили
+*/
+body {
+	background-color: #0333;
+
+}
+
+ul {
+	list-style: none;
+
+}
+nav, .first {
+	background-color: blue;
+}
+div {
+	background-color: green;
+}
+#wrap {
+	background-color: white;
+}
+.first {
+	font-size: 18px;
+}
+div.wrap > nav#nav > span[daa-id]
+{
+	color: white;
+}
+/*
+стили для контента
+*/
